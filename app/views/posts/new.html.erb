@@ -1,0 +1,4 @@
+
+<%= react_component 'new_post', {post:@post, url: image_url('insta_logo.png'), add: image_url('add_icon.png'), profile: image_url('profile_icon.png'),user:@user}%>
+<%= form_for Post.create, html: { multipart: true }  do |form| %>
+<% end %>

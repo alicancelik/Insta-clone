@@ -1,0 +1,145 @@
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.header-container {
+	height: 8%;
+	border-bottom: 1px solid #efefef;
+    margin: 0;
+    background-color: #FFF; 
+    font-family:  #49575F;
+    width: 100px;
+    height: 60px;
+
+    
+    
+}
+
+.header-nav {
+	margin: 0;
+	padding: 0 50px 0 50px;
+    list-style-type: none; 
+    background-size: cover;
+    
+}
+
+.header-nav li {
+	
+	margin: 5px;
+	padding: 5px;
+}
+
+.logo {
+	text-decoration: none;
+	font-family: 'Lobster', cursive;
+    font-size: 30px; 
+    height: 50px;
+    width: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    background-size: auto 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+.user-profile {      
+    background: #F0F0F0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 5px;    
+}
+
+
+.posts_margin {
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+}
+.add {
+    height: 50px;
+    width: 50px;
+    grid-column: 95;
+    grid-row: 1;
+    background-size: auto 100%;
+    background-position: 50%;
+    background-repeat: no-repeat; 
+    border-radius: 50%;   
+}
+.profile {
+    height: 50px;
+    width: 50px;
+    grid-column: 100;
+    grid-row: 1;
+    background-size: auto 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    
+}
+
+.home {
+	width: 100%;
+	height: 100%;
+	background-color: #F0F0F0;
+	margin: 0;
+	padding: 0;
+}
+
+.main-body {
+	width: 40%;
+	height: 100%;
+	margin: auto;
+	padding: 10px;
+}
+.posts-feed {
+    width: 100%;
+}
+
+.post {
+    flex-direction: column;        
+    width: 100%;
+    align-items: center;
+    display: flex;
+    background: #F0F0F0;   
+                
+}
+.user-show-container {
+    margin-top: 70px;
+    
+    
+    
+  }
+  .user-show-body {
+    display: flex;
+    margin: 47px auto;
+    max-width: 980px;
+    flex-wrap: wrap;
+  }
+
+.material-icons.md-36 {
+	font-size: 36px;
+}
+.material-icons.red {
+	color: red;
+}
+.post-upload-dropzone {
+	width: 30%;
+	margin: auto;
+	margin-top: 30px;
+}
+.post-likes{
+    display: flex;   
+}
+.like-count{
+    color: black;
+    font-family: 'open-sans', sans-serif;
+    font-weight: 600;
+    font-size: 14.5px;
+    margin-bottom: 12px;
+
+}
+  
